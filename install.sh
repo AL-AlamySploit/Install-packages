@@ -17,22 +17,26 @@ figlet Install-pckages
 printf "${A7Y}[+] witing to Down..  ..\n"
 apt update && apt upgrade -y
 pkg update && pkg upgrade -y
-pkg install git
 pkg install python
 pkg install python2
 pkg install python3
 pkg install ruby
-pkg install wget
-pkg install unzip
 pkg install zip
 pkg install nano
 pkg install perl
 pkg install curl
 pkg install proot
-pkg install python2
-pkg install ruby
+termux-chroot
+dpkg --configure -a
+pkg install git
 pkg install wget
 pkg install curl
+pip install mechanize
+pip2 install mechanize
+pip install requests
+pip2 install requests
+pip install --upgrade pip
+termux-setup-storage
 clear
 ################################################################################
 ################################################################################
