@@ -1,6 +1,6 @@
-# Install-pckages
+# Install-packages
 #This only for testing
-#  Install-Pckages no Termux
+#  Install-Packages no Termux
 
 <pre><span class="pl-c"></span> #command </span>
 
@@ -8,9 +8,9 @@ $ apt update && apt upgrade
 
 $ apt install git 
 
-$ git clone https://github.com/AL-AlamySploit/Install-pckages
+$ git clone https://github.com/AL-AlamySploit/Install-packages
 
-$ cd Install-pckages
+$ cd Install-packages
 
 $ chmod +x install.sh
 
