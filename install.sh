@@ -19,7 +19,6 @@ termux-setup-storage
 pkg update && pkg upgrade -y
 pkg install python
 pkg install python2
-pkg install python3
 pkg install ruby
 gem install lolcat
 pkg install zip
@@ -32,7 +31,6 @@ dpkg --configure -a
 pkg install git
 pkg install wget
 pkg install curl
-pkg install pip
 pip install mechanize
 pip2 install mechanize
 pip install requests
